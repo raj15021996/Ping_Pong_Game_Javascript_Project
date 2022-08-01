@@ -1,0 +1,127 @@
+body {
+    background-color: black;
+}
+
+html {
+    font-size: 65.5%;
+}
+
+p {
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+}
+
+#gameCanvas {
+    margin-top: 1.6rem;
+    border: .3rem solid red;
+}
+
+.canvasEle {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    margin: 2rem;
+    cursor: pointer;
+    border: .3rem solid blue;
+    background-color: white;
+    height: 4rem;
+    width: 15rem;
+    color: black;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.start_button {
+    display: flex;
+    justify-content: center;
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 255, 0.466);
+    border: .3rem solid white;
+    color: white;
+}
+
+.btn_content {
+    margin: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn_back {
+    cursor: pointer;
+    border: 3px solid red;
+    background-color: yellow;
+    height: 4rem;
+    width: 12rem;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.btn_back:hover {
+    background-color: blue;
+    border: .3rem solid wheat;
+    color: white;
+}
+#footer_content{
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+    margin: 1rem;
+    color: #fff;
+    position:absolute;
+    bottom: 0rem;
+
+}
+
+footer span {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    font-family: sans-serif;
+    
+}
+
+footer span a {
+    color: rgb(16, 61, 212);
+}
+
+@media screen and (max-width: 768px) {
+
+    canvas,
+    img {
+        width: 70%;
+        height: 70%;
+    }
+
+    html {
+        font-size: 55%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    canvas,
+    img {
+        width: 70%;
+        height: 70%;
+    }
+
+    html {
+        font-size: 40%;
+    }
+
+}
