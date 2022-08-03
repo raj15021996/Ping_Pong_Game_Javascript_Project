@@ -7,10 +7,10 @@ var ballSpeedY = 5;
 var paddle1Y = 250;   
 var paddle2Y = 250;  
 const PADDLE_HEIGHT = 100;
-const PADDLE_WIDTH = 10;
+const PADDLE_WIDTH = 15;
 var playerScore = 0;
 var computerScore = 0;
-const WINNING_SCORE = 1;
+const WINNING_SCORE = 5;
 var showingWInScreen = false; 
 
 
